@@ -10,8 +10,8 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.release.release.StartActivity"
-    tools:showIn="@layout/start_page">
+    tools:context="com.release.release.LoginActivity"
+    tools:showIn="@layout/login_page">
 
     <LinearLayout
         android:id="@+id/login_place_holder"
