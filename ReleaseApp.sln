@@ -16,6 +16,7 @@ Global
 		ReleaseApp\ReleaseApp\ReleaseApp.projitems*{0a58909e-8ed1-41c3-9bec-dfcad6d20f34}*SharedItemsImports = 13
 		ReleaseApp\ReleaseApp\ReleaseApp.projitems*{ab591d75-7468-44e6-8763-4f37600f20e6}*SharedItemsImports = 4
 		ReleaseApp\ReleaseApp\ReleaseApp.projitems*{befadc16-d16a-4f52-a373-c28a8b75ad18}*SharedItemsImports = 4
+		ReleaseApp\ReleaseApp\ReleaseApp.projitems*{d27ef3c6-a5c1-4539-b975-f8b74cbcab3c}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU

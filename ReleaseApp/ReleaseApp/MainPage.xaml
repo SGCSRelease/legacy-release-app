@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:ReleaseApp"
              x:Class="ReleaseApp.MainPage">
 
-	<Label Text="Welcome to Xamarin Forms!" 
+	<Label Text="Welcome to Release App!" 
            VerticalOptions="Center" 
            HorizontalOptions="Center" />
 
