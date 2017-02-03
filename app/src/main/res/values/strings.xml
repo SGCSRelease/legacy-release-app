@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">Release</string>
-    <string name="action_settings">Settings</string>
-    <string name="ID">ID</string>
-    <string name="PW">PW</string>
-    <string name="login">Login</string>
-</resources>
