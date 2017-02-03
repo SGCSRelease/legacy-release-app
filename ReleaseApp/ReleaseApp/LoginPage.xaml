@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ReleaseApp.LoginPage"
+             Title="Login Page"
+             BackgroundColor="White">
+
+    <StackLayout Spacing="0" Padding="0" Margin="50">
+        <Image Source="LogoColor.png" HorizontalOptions="End"/>
+
+        <Entry x:Name="email"
+               Text="Email"
+               TextColor="Black" 
+               HorizontalOptions="CenterAndExpand"
+               HorizontalTextAlignment="Start"
+               WidthRequest="100"/>
+        <Entry x:Name="password"
+               Text="Password"
+               IsPassword="False"
+               HorizontalOptions="CenterAndExpand" 
+               TextColor="Black"
+               HorizontalTextAlignment="Start"
+               WidthRequest="100"/>
+        <Button Text="Login"
+                FontSize="15"
+                TextColor="Black"
+                BackgroundColor="#ffa101"/>
+        <Label x:Name="Forgot"
+               Text="Forgot my ID/PW" 
+               TextColor="Blue" 
+               HorizontalOptions="Center"
+               VerticalOptions="End"/>
+    </StackLayout>
+</ContentPage>

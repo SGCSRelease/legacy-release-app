@@ -12,9 +12,8 @@ namespace ReleaseApp
 		public App ()
 		{
 			InitializeComponent();
-
-			MainPage = new ReleaseApp.MainPage();
-		}
+            MainPage = new ReleaseApp.LoginPage();
+        }
 
 		protected override void OnStart ()
 		{
