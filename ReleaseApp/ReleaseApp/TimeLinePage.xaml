@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ReleaseApp;assembly=ReleaseApp"
+             x:Class="ReleaseApp.TimeLinePage">
+  <ContentPage.Content>
+    <ListView x:Name="timeLineList" ItemsSource="{Binding TimeLineContent}">
+      <ListView.ItemTemplate>
+        <DataTemplate>
+          <ViewCell>
+            <StackLayout Orientation="Horizontal">
+              <Image Aspect="AspectFill" WidthRequest="60" HeightRequest="60">
+                <Image.Source>
+                  <UriImageSource
+                    Uri="{Binding DisplayImage}"
+                    CacheValidity="10:00:00.0"/>
+                </Image.Source>
+              </Image>
+              <Label Text="{Binding DisplayName}" VerticalOptions="Center" ></Label>
+            </StackLayout>
+            <Image Aspect="AspectFill">
+              <Image.Source>
+                <UriImageSource
+                  Uri="{Binding DisplayContent}"
+                  CacheValidity="10:00:00.0"/>
+              </Image.Source>
+            </Image>
+          </ViewCell>
+        </DataTemplate>
+      </ListView.ItemTemplate>
+    </ListView>
+  </ContentPage.Content>
+</ContentPage>

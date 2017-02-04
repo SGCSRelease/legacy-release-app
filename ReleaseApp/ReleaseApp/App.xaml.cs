@@ -14,7 +14,9 @@ namespace ReleaseApp
 			InitializeComponent();
 
 			MainPage = new ReleaseApp.MainPage();
-		}
+            MainPage = new ReleaseApp.TimeLinePage();
+
+        }
 
 		protected override void OnStart ()
 		{
