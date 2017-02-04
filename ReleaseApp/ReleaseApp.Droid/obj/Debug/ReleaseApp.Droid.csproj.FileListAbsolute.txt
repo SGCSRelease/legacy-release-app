@@ -31,7 +31,6 @@ D:\Projects\ReleaseApp\ReleaseApp\ReleaseApp.Droid\bin\Debug\Xamarin.Forms.Platf
 D:\Projects\ReleaseApp\ReleaseApp\ReleaseApp.Droid\bin\Debug\Xamarin.Forms.Xaml.pdb
 D:\Projects\ReleaseApp\ReleaseApp\ReleaseApp.Droid\bin\Debug\Xamarin.Forms.Xaml.xml
 D:\Projects\ReleaseApp\ReleaseApp\ReleaseApp.Droid\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
-D:\Projects\ReleaseApp\ReleaseApp\ReleaseApp.Droid\obj\Debug\ReleaseApp.Droid.csprojResolveAssemblyReference.cache
 D:\Projects\ReleaseApp\ReleaseApp\ReleaseApp.Droid\obj\Debug\ReleaseApp.Droid.MainPage.xaml.g.cs
 D:\Projects\ReleaseApp\ReleaseApp\ReleaseApp.Droid\obj\Debug\ReleaseApp.Droid.App.xaml.g.cs
 D:\Projects\ReleaseApp\ReleaseApp\ReleaseApp.Droid\obj\Debug\ReleaseApp.Droid.LoginPage.xaml.g.cs
@@ -70,5 +69,6 @@ D:\Projects\ReleaseApp\ReleaseApp\ReleaseApp.Droid\obj\Debug\android\assets\Syst
 D:\Projects\ReleaseApp\ReleaseApp\ReleaseApp.Droid\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
 D:\Projects\ReleaseApp\ReleaseApp\ReleaseApp.Droid\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 D:\Projects\ReleaseApp\ReleaseApp\ReleaseApp.Droid\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+D:\Projects\ReleaseApp\ReleaseApp\ReleaseApp.Droid\obj\Debug\ReleaseApp.Droid.csprojResolveAssemblyReference.cache
 D:\Projects\ReleaseApp\ReleaseApp\ReleaseApp.Droid\obj\Debug\ReleaseApp.Droid.dll.mdb
 D:\Projects\ReleaseApp\ReleaseApp\ReleaseApp.Droid\bin\Debug\ReleaseApp.Droid.dll.mdb

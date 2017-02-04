@@ -17,20 +17,24 @@ namespace ReleaseApp {
     public partial class LoginPage : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Entry email;
+        private global::Xamarin.Forms.Entry id_entry;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Entry password;
+        private global::Xamarin.Forms.Entry pw_entry;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Label Forgot;
+        private global::Xamarin.Forms.Button login_btn;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Label find_idpw;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(LoginPage));
-            email = this.FindByName<global::Xamarin.Forms.Entry>("email");
-            password = this.FindByName<global::Xamarin.Forms.Entry>("password");
-            Forgot = this.FindByName<global::Xamarin.Forms.Label>("Forgot");
+            id_entry = this.FindByName<global::Xamarin.Forms.Entry>("id_entry");
+            pw_entry = this.FindByName<global::Xamarin.Forms.Entry>("pw_entry");
+            login_btn = this.FindByName<global::Xamarin.Forms.Button>("login_btn");
+            find_idpw = this.FindByName<global::Xamarin.Forms.Label>("find_idpw");
         }
     }
 }
