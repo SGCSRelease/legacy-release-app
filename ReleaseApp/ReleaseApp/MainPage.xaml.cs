@@ -12,6 +12,6 @@ namespace ReleaseApp
 		public MainPage()
 		{
 			InitializeComponent();
-		}
+        }
 	}
 }
