@@ -27,7 +27,7 @@ namespace ReleaseApp.Droid.Effects
         }
         protected override void OnDetached()
         {
-            //SetUnderline(false);
+            SetUnderline(false);
         }
 
         protected override void OnElementPropertyChanged(System.ComponentModel.PropertyChangedEventArgs args)

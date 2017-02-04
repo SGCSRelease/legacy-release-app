@@ -18,7 +18,7 @@ namespace ReleaseApp
             var tapRecognizer = new TapGestureRecognizer();
             tapRecognizer.Tapped += (S, E) =>
             {
-                //this.find_idpw.SetValue(Label.TextProperty, "Tapped!");
+                this.find_idpw.SetValue(Label.TextProperty, "Tapped!");
                 this.find_idpw.Effects.Add(Effect.Resolve("UnderlineLabelEffect"));
             };
             this.find_idpw.GestureRecognizers.Add(tapRecognizer);
